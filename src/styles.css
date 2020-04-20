@@ -1,9 +1,20 @@
 /* Add application styles & imports to this file! */
 html, body {height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica"}
+/* body { margin: 0; font-family: Roboto, "Helvetica"} */
 
-.mat-toolbar {
-  background-color: #333;
+body {
+  font-family: Roboto, Arial, sans-serif;
+  margin: 0;
+}
+.basic-container {
+  padding: 30px;
+}
+.version-info {
+  font-size: 8pt;
+  float: right;
+  margin: 8px;
+}
+.navbar {
   overflow: hidden;
   position: fixed;
   bottom: 0;
